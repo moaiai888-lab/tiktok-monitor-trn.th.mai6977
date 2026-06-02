@@ -5,7 +5,7 @@ TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 APIFY_TOKEN = os.environ["APIFY_TOKEN"]
 
-DATASET_ID = "ใส่ Dataset ID ของ trn.th.mai6977"
+DATASET_ID = "GQcLvQyOqnakvhw0E"
 
 url = f"https://api.apify.com/v2/datasets/{DATASET_ID}/items?token={APIFY_TOKEN}&format=json&clean=true"
 
