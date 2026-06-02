@@ -9,7 +9,11 @@ DATASET_ID = "GQcLvQyOqnakvhw0E"
 
 url = f"https://api.apify.com/v2/datasets/{DATASET_ID}/items?token={APIFY_TOKEN}&format=json&clean=true"
 
+print("URL =", url)
+
 data = requests.get(url).json()
+
+print("DATA =", data)
 
 if not isinstance(data, list):
     print(data)
